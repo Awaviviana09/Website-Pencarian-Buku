@@ -1,0 +1,124 @@
+
+
+/* App.css */
+.App {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  background: #fff;
+}
+
+.header {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.app-title {
+  font-size: 4em;
+  margin-bottom: 50px;
+}
+
+.app-description {
+  font-size: 1.8em;
+}
+
+.container {
+  background: linear-gradient(to bottom, #b7ecd9, #baecb2, #d1f1ef);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #dcdde1;
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #00cec9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-button {
+  background-color: #d63031;
+}
+
+.books {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.book {
+  margin-bottom: 1em;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.book-info {
+  margin-top: 10px;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.left {
+  margin-right: auto;
+}
+
+
+
+
+
